@@ -6,7 +6,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='grid h-screen place-items-center'>
+    <div className='grid h-screen place-items-center bg-gradient-to-r from-gray-500 to-gray-700 '>
       <ProfileCard/>
     </div>
   )
